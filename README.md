@@ -26,6 +26,28 @@ This project implements an event-based motion transfer system for dexterous robo
 
 
 ## Dataset Description
+```
+dataset/
+├── event_images/ # Event camera data
+│ ├── event_sequence_0.npy # Event sequence 0
+│ ├── event_sequence_1.npy # Event sequence 1
+│ └── ... 
+│
+├── rgb_images/ # Corresponding RGB images
+│ ├── rgb_frame_0.npy # RGB sequence 0
+│ ├── rgb_frame_1.npy # RGB sequence 1
+│ └── ... 
+│
+├── meta_data/ # Metadata files
+│ ├── metadata_0.pickle # Sequence 0 metadata
+│ ├── metadata_1.pickle # Sequence 1 metadata
+│ └── ... 
+```
+## Dataset Download
+The dataset can be downloaded from Baidu Netdisk:
+
+**Download Link**: [https://pan.baidu.com/s/1ygX9PAg0pdOZdiR7sKP45g?pwd=sfd9 ]( https://pan.baidu.com/s/1ygX9PAg0pdOZdiR7sKP45g?pwd=sfd9 )  
+**Extraction Code**: sfd9
 
 ### Organization
 
